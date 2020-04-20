@@ -16,8 +16,10 @@ string Cesar::cifrado(string M){
   int m = M.size();
   for(int i=0; i<m; i++){
     int pos = alfabeto.find(M[i])+clave;
-    if(pos+clave > a-1)
+    if(pos > a-1)
       M[i] = alfabeto[mod(pos,a)];
+    else
+    M[i] = alfabeto[pos];
   }
   return M;
 }
@@ -26,8 +28,10 @@ string Cesar::descifrado(string MC){
   int m=MC.size();
   for(int i=0; i<m; i++){
     int pos=alfabeto.find(MC[i])-clave;
-    if(pos-clave < 0)
+    if(pos < 0)
       MC[i] = alfabeto[mod(pos,a)];
+    else
+    MC[i] = alfabeto[pos];
   }
   return MC;
 }
