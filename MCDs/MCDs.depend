@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1588023076 source:c:\users\crist\desktop\ntl\mcds\main.cpp
+	<NTL/ZZ.h>
+	"funciones.h"
+
+1588010933 c:\users\crist\desktop\ntl\mcds\include\funciones.h
+
