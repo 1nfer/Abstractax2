@@ -84,39 +84,39 @@ int main(){
    // cout<<quinto(a,b)<<endl;
    // cout<<sexto(a,b)<<endl;
 
-//   auto t1 = std::chrono::high_resolution_clock::now();
-//   primer(a,b);
-//   auto t2 = std::chrono::high_resolution_clock::now();
-//   auto duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
-//   cout << duration<<endl;
-//
-//   t1 = std::chrono::high_resolution_clock::now();
-//   segundo(a,b);
-//   t2 = std::chrono::high_resolution_clock::now();
-//   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
-//   cout << duration<<endl;
-//
-//   t1 = std::chrono::high_resolution_clock::now();
-//   tercero(a,b);
-//   t2 = std::chrono::high_resolution_clock::now();
-//   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
-//   cout << duration<<endl;
-
    auto t1 = std::chrono::high_resolution_clock::now();
-   cuarto(a,b);
+   primer(a,b);
    auto t2 = std::chrono::high_resolution_clock::now();
    auto duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
    cout << duration<<endl;
 
-//   t1 = std::chrono::high_resolution_clock::now();
-//   quinto(a,b);
-//   t2 = std::chrono::high_resolution_clock::now();
-//   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
-//   cout << duration<<endl;
-//
-//   t1 = std::chrono::high_resolution_clock::now();
-//   sexto(a,b);
-//   t2 = std::chrono::high_resolution_clock::now();
-//   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
-//   cout << duration<<endl;
+   t1 = std::chrono::high_resolution_clock::now();
+   segundo(a,b);
+   t2 = std::chrono::high_resolution_clock::now();
+   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+   cout << duration<<endl;
+
+   t1 = std::chrono::high_resolution_clock::now();
+   tercero(a,b);
+   t2 = std::chrono::high_resolution_clock::now();
+   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+   cout << duration<<endl;
+
+   t1 = std::chrono::high_resolution_clock::now();
+   cuarto(a,b);
+   t2 = std::chrono::high_resolution_clock::now();
+   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+   cout << duration<<endl;
+
+   t1 = std::chrono::high_resolution_clock::now();
+   quinto(a,b);
+   t2 = std::chrono::high_resolution_clock::now();
+   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+   cout << duration<<endl;
+
+   t1 = std::chrono::high_resolution_clock::now();
+   sexto(a,b);
+   t2 = std::chrono::high_resolution_clock::now();
+   duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+   cout << duration<<endl;
 }
