@@ -49,14 +49,14 @@ ZZ cuarto(ZZ a, ZZ b){ // cout<<a<<" "<<b<<" "<<modulo(a,b)<<endl;
 ZZ quinto(ZZ x, ZZ y){
    ZZ g(1);
    while(modulo(x,(ZZ)2)==0 && modulo(y,(ZZ)2)==0){ // cout<<x<<" "<<y<<" "<<g<<endl;
-      x/=2;
-      y/=2;
+      x>>1;
+      y>>1;
       g=2*g;
    } // cout<<"while 2: "<<endl;
    while(x!=0){ // cout<<"WHILE: "<<x<<" "<<y<<" "<<g<<" "<<endl;
-      while(modulo(x,(ZZ)2)==0) x/=2;
-      while(modulo(y,(ZZ)2)==0) y/=2;
-      ZZ t=abs(x-y)/2;
+      while(modulo(x,(ZZ)2)==0) x>>1;
+      while(modulo(y,(ZZ)2)==0) y>>1;
+      ZZ t=abs(x-y)>>1;
       if(x>=y) x=t;
       else y=t;
    }
