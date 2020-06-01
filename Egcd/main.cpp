@@ -26,11 +26,11 @@ vector<T> Egcd(T a, T b){
 
 		x=x0-q*x1;
 		x0=x1;
-		x1=s;
+		x1=x;
 
 		y=y0-q*y1;
 		y0=y1;
-		y1=t;
+		y1=y;
 	}
 	x=x0;
   y=y0;
