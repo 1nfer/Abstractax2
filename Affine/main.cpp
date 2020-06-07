@@ -3,23 +3,6 @@
 #include "inc/Affine.h"
 using namespace std;
 
-// void menu(){
-//   cout<<"1: Cifrar"<<endl<<"2: Descifrar"<<endl;
-//   int i; cin>>i;
-//   string mensaje=readFile();
-//   if(i==1){
-//     Affine emisor;
-//     emisor.cifrado(mensaje);
-//   }
-//   if(i==2){
-//     int A, B;
-//     cout<<"A: "; cin>>A;
-//     cout<<"B: "; cin>>B;
-//     Affine receptor(A,B);
-//     receptor.descifrado(mensaje);
-//   }
-// }
-
 void menu(){
   int op;
   string mensaje;
