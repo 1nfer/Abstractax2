@@ -43,5 +43,7 @@ vector<T> Egcd(T a, T b){
 }
 
 int main(){
-
+	vector<int>e=Egcd<int>(140,9);
+	int a=e[1]; cout<<a;
 }
+X0 = 2*140*2+3*180*3+1*315*3+(-1mod1260)*252*3 (mod 1260)
