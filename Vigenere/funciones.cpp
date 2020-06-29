@@ -19,6 +19,6 @@ void writeFile(string mensaje){
 int mod(int a, int b){
   int q=a/b, r=a-q*b;
   if(r<0)
-    r+=b; 
+    r+=b;
   return r;
 }

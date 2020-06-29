@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "xutility": "cpp",
+    "xstring": "cpp",
+    "*.txt": "cpp",
+    "ios": "cpp",
+    "xiosbase": "cpp",
+    "queue": "cpp",
+    "deque": "cpp",
+    "vector": "cpp",
+    "algorithm": "cpp"
+  }
+}
